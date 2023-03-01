@@ -96,9 +96,9 @@
     "@types/json-schema" "^7.0.7"
     "tmp-promise" "^3.0.3"
 
-"@dicebear/core@5.3.4", "@dicebear/core@file:/Users/doronavi-guy/src/dicebear/packages/@dicebear/core":
+"@dicebear/core@5.3.4":
   "resolved" "file:packages/@dicebear/core"
-  "version" "5.3.4"
+  "version" "5.3.6"
   dependencies:
     "@dicebear/converter" "5.3.4"
 
@@ -1935,6 +1935,13 @@
   dependencies:
     "asap" "^2.0.0"
     "wrappy" "1"
+
+"dicebear-core-random@file:/Users/doronavi-guy/src/dicebear/packages/@dicebear/core":
+  "resolved" "file:packages/@dicebear/core"
+  "version" "5.3.6"
+  dependencies:
+    "@dicebear/converter" "5.3.4"
+    "crypto-js" "^4.1.1"
 
 "dicebear@file:/Users/doronavi-guy/src/dicebear/packages/dicebear":
   "resolved" "file:packages/dicebear"

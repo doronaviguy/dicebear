@@ -32,7 +32,8 @@
     "test": "uvu tests"
   },
   "dependencies": {
-    "@dicebear/converter": "5.3.4"
+    "@dicebear/converter": "5.3.4",
+    "crypto-js": "^4.1.1"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
