@@ -13,6 +13,10 @@
     "prepare-publish": "lerna version --force-publish --exact"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
     "lerna": "^6.4.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }

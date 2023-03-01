@@ -1,18 +1,18 @@
 {
-  "name": "@dicebear/core",
-  "version": "5.3.4",
+  "name": "dicebear-core-random",
+  "version": "5.3.5",
   "description": "An avatar library for designers and developers.",
   "keywords": [
     "avatar",
     "identicon"
   ],
-  "homepage": "https://dicebear.com",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/dicebear/dicebear/issues"
+    "url": "https://github.com/doronaviguy/dicebear/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dicebear/dicebear.git"
+    "url": "git@github.com:doronaviguy/dicebear.git"
   },
   "license": "MIT",
   "author": "Florian Körner <contact@florian-koerner.com>",

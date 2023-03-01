@@ -1,4 +1,5 @@
 import type { Prng } from '../types.js';
+import sha256 from 'crypto-js/sha256';
 
 const MIN = -2147483648;
 const MAX = 2147483647;
@@ -22,11 +23,18 @@ function hashSeed(seed: string) {
   return hash;
 }
 
+function sha256Str(message: string) {
+  console.log(sha256(message));
+  
+  return Number(sha256(message))
+}
+
+
 export function create(seed: string = ''): Prng {
   // Ensure that seed is a string
   seed = seed.toString();
 
-  let value = hashSeed(seed) || 1;
+  let value = sha256Str(seed) || 1;
 
   const next = () => (value = xorshift(value));
 
